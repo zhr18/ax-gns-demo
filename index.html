@@ -324,7 +324,7 @@
      Tombol di bawah hanya penanda posisi sampai widget asli dipasang.
      ===================================================================== -->
 <div id="ax-ganes-slot">
-  <button class="bubble" onclick="toast('Slot widget ax_GANES — pasang snippet embed di sini')">Tanya toko</button>
+  <button class="ganes-ask-btn bubble" onclick="GanesWidget.ask('Can you help me?', { response_ui: 'popup' })">Ask AI</button>
 </div>
 
 <script type="application/ld+json">
@@ -472,5 +472,12 @@ function toast(msg){
 
 render(); paint();
 </script>
+
+<script
+  src="https://widget.gedungbiru.my.id/v1/loader.js"
+  data-store-id="f8639b4c5f4c4bd0b3ee3c0871d94e2d"
+  async
+></script>
+
 </body>
 </html>
